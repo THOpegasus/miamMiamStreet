@@ -1,0 +1,1036 @@
+.index_body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../photo/background.jpg");
+    background-size: cover; /* Couvre tout l'élément, en gardant les proportions */
+    background-position: center; /* Centre l'image de fond */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */ 
+    background-attachment: fixed;
+    color: #e3a414;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: #e3a414;
+}
+
+header{
+    width: 100%;
+    height: 5vw;
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+
+}
+
+
+
+.logo{
+    font-family: "Dancing Script", cursive;
+    font-size: 2vw;
+    flex: 1;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex: 1.5;
+
+    font-size: 1vw;
+    text-decoration: none;
+}
+
+.jourMarche{
+    height: 83vh;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    margin-top: 19vh;
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 25px 20px -20px;
+}
+
+.imgHeaderContainer{
+    width: 50vw;
+    height: 25vw;
+    
+}
+
+.paella_header{
+    width: 50vw;
+    object-fit: cover;
+
+
+}
+
+
+.jourMarcheText{
+
+    width: 100%;
+    text-align: center;
+    font-size: 5vh;
+}
+
+h2{
+    font-family: "Dancing Script", cursive;
+}
+
+.jourMarcheText h2{
+    font-family: "Dancing Script", cursive;
+    font-size: 5vh;
+}
+
+.jourMarcheText h2::first-line{
+    font-size: 8vh;
+}
+
+.qui_suis_je{
+    width: 97vw;
+    font-size: 9vh;
+    
+    background-image: url('../photo/grunge-wall-texture.jpg');
+    background-size: contain;
+    background-position: center;
+
+    display: flex;
+    flex-direction: row;
+    padding-left: 2vw;
+}
+
+.qui_suis_je_text{
+
+}
+
+.qui_suis_je_img{
+
+}
+
+.qui_suis_je_img img{
+    width: 100vh;
+}
+
+.index_plat{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(32, 32, 32);
+}
+
+.index_plat_img{
+    clip-path: polygon(0 0, 100% 0, 71% 100%, 0% 100%);
+
+}
+
+.index_plat_img img{
+    width: 62.5vw;
+}
+
+.plat_text{
+    position: absolute;
+    height: 30vw;
+    width: auto;
+    right: 0;
+    display: flex;
+    font-size: 5.5vw;
+    text-align: center;
+    align-items: center;
+    margin-right: 1vw;
+
+
+
+}
+
+.plat_text a{
+    text-decoration: none;
+    color: #e3a414;
+}
+
+.plat_text a:hover{
+    text-decoration: underline;
+
+}
+
+.index_avis{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.avis_container{
+    width: 100%;
+
+    margin-top: 5vh;
+
+
+    display: flex;
+
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+
+.avis_titre{
+    font-size: 7vh;
+    text-align: center;
+}
+
+
+.avis{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25vh;
+    width: 25vw;
+    color: black;
+    border-radius: 10px 10px 10px 10px;
+    background-image: url('../photo/background_blanc.jpg');
+    background-size: contain;
+    background-position: center;
+
+    border: 2px solid black;
+
+    font-size: 1vw;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 8px;
+}
+
+.avis_top_container{
+    display: flex;
+    flex-direction: row;
+
+    border-bottom: 2px solid black;
+    justify-content: space-between;
+
+}
+
+.avis_gauche{
+    display: flex;
+    flex-direction: row;
+}
+
+.avis_nom{
+    margin-right: 15px;
+}
+
+.avis_note{
+    color: gold;
+}
+
+.index_avis h4{
+    margin-left: 3.5vw;
+    font-size: 1.5vw;
+    align-items: end;
+    margin-bottom: 0;
+}
+
+
+
+.partenaire_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+    width: 99vw;
+}
+
+.partenaire_text{
+    font-size: 3.5vw;
+    text-align: center;
+}
+
+
+.partenaire_liste{
+    display: flex;
+    width: 99vw;
+    flex-direction: row;
+
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.partenaire_liste a{
+    object-fit: cover;
+}
+
+.partenaire_liste a img{
+    width: 25vh;
+    height: 25vh;
+    border-radius: 50%;
+}
+
+
+
+footer{
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: row;
+
+    background-color: rgb(32, 32, 32);
+    clip-path: polygon(0 0, 100% 70%, 100% 100%, 0% 100%);
+
+}
+
+footer img{
+    width: 25vw;
+}
+
+.footer_contacter{
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2vw;
+    align-items: center;
+    
+}
+
+.footer_contacter img{
+    width: 5vw;
+}
+
+
+
+
+/* --------------------  PLATS ------------------ */
+
+.plats_body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../photo/grunge-wall-texture.jpg");
+    background-size: cover; /* Couvre tout l'élément, en gardant les proportions */
+    background-position: center; /* Centre l'image de fond */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    color: #e3a414;
+    display: flex;
+    flex-direction: column;
+}
+
+.plat_titre{
+    font-size: 10vw;
+    margin-top: 8vw;
+    margin-left: 5vw;
+}
+
+.plats_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+
+
+}
+
+.plat{
+    width: 25vw;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    object-fit: cover;
+
+    font-size: 3vh;
+
+    border-radius: 5%;
+
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5vw;
+
+    background-image: url("../photo/photo-wood-texture-pattern.jpg");
+    background-size: contain; /* Couvre tout l'élément, en gardant les proportions */
+    background-position: center; /* Centre l'image de fond */
+    background-repeat: repeat; /* Empêche la répétition de l'image */
+
+}
+
+
+
+.plat img{
+    border-radius: 5%;
+    height: 25vw;
+    object-fit: cover;
+}
+
+.plat_nom{
+    margin: 0;
+    text-align: center;
+    border-bottom: 2px solid #e3a414;
+    margin-top: 2%;
+    padding-bottom: 5%;
+}
+
+.plat_description{
+    margin-top: 15px;
+
+    padding-top: 0;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 0;
+
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+/* --------------------  PLAT DETAIL ------------------ */
+
+.platDetail_body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../photo/grunge-wall-texture.jpg");
+    background-size: cover; /* Couvre tout l'élément, en gardant les proportions */
+    background-position: center; /* Centre l'image de fond */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    color: #e3a414;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.platDetail{
+    margin-top: 5vw;
+    width: 75vw;
+    display: flex;
+    flex-direction: row;
+
+    background-image: url("../photo/background.jpg");
+    background-size: cover; /* Couvre tout l'élément, en gardant les proportions */
+    background-position: center; /* Centre l'image de fond */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5%;
+}
+
+.platDetail_gauche{
+
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.platDetail_gauche_bottom{
+    margin-left: 2vw;
+}
+
+.platDetail_droit{
+
+
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 5vw;
+
+}
+
+.platDetail_img{
+    width: 25vw;
+    height: 25vw;
+    background-color: red;
+    background-image: url(../photo/plat/paella.jpg);
+    background-size: cover; /* Couvre tout l'élément, en gardant les proportions */
+    background-position: center; /* Centre l'image de fond */
+    background-repeat: no-repeat;
+
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+}
+
+
+.platDetail_nom{
+    font-size: 5vw;
+
+    margin-top: 2vw;
+    margin-bottom: 0;
+    font-family: "Dancing Script", cursive;
+}
+
+.platDetail_prix{
+    font-size: 3vw;
+    margin-top: 0;
+}
+
+
+.platDetail_droit p{
+    font-size: 2vw;
+}
+
+
+
+
+/* --------------------  AVIS ------------------ */
+
+.avis_body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../photo/grunge-wall-texture.jpg");
+    background-size: cover; /* Couvre tout l'élément, en gardant les proportions */
+    background-position: center; /* Centre l'image de fond */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    color: #e3a414;
+    display: flex;
+    flex-direction: column;
+}
+
+.avis_top{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vw;
+    align-items: center;
+}
+
+.avis_avis_titre{
+    font-size: 10vw;
+
+    margin-left: 5vw;
+}
+
+.form-avis{
+
+    height: 15vw;
+
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+
+    flex: 2;
+
+    margin-left: 15%;
+    margin-right: 15%;
+    
+    border: #e3a414 solid 1px;
+}
+
+.form-avis input{
+    background: none;
+    border: none;
+}
+
+.form-avis textarea{
+    width: 99.1%;
+    height: 100%;
+    resize: none;
+}
+
+.avis_avis{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 12.5vw;
+    width: 25vw;
+    color: black;
+    border-radius: 10px 10px 10px 10px;
+    background-image: url('../photo/background_blanc.jpg');
+    background-size: contain;
+    background-position: center;
+
+    border: 2px solid black;
+
+    font-size: 1vw;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 5vw;
+    padding: 8px;
+}
+
+
+/* -----------    PHOTO VIDEO   ------------- */
+
+#fb-root{
+    margin-top: 10vw;
+}
+
+.photoVideo_body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../photo/grunge-wall-texture.jpg");
+    background-size: cover; /* Couvre tout l'élément, en gardant les proportions */
+    background-position: center; /* Centre l'image de fond */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    color: #e3a414;
+    display: flex;
+    flex-direction: column;
+}
+
+.fb-page{
+    margin-left: 35vw;
+    margin-right: 15vw;
+}
+
+
+/* --------------------    ADMIN   ------------------ */
+
+.admin_body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../photo/grunge-wall-texture.jpg");
+    background-size: cover; /* Couvre tout l'élément, en gardant les proportions */
+    background-position: center; /* Centre l'image de fond */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    color: #e3a414;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* --- OU ME TROUVER --- */
+
+.admin_ou_me_trouver{
+    flex-direction: column;
+    align-items: center;
+}
+
+.ou_me_trouver_titre{
+    font-size: 8vw;
+    margin-top: 1vw;
+    text-align: center;
+}
+
+.ou_me_trouver_titre h2{
+
+    margin: 0;
+
+}
+
+.form-ou-me-trouver{
+    width: 99%;
+    height: 25vw;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-ou-me-trouver textarea{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    color: #e3a414;
+}
+
+
+/* --- QUI SUIS JE --- */
+
+.admin_qui_suis_je{
+    flex-direction: column;
+    align-items: center;
+}
+
+.qui_suis_je_titre{
+    font-size: 8vw;
+    margin-top: 1vw;
+    text-align: center;
+}
+
+.qui_suis_je_titre h2{
+
+    margin: 0;
+
+}
+
+.form-qui-suis-je{
+    width: 99%;
+    height: 25vw;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-qui-suis-je textarea{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    color: #e3a414;
+}
+
+
+/* --- PLATS PROPOSER --- */
+
+.admin_plat_proposer{
+    flex-direction: column;
+    align-items: center;
+}
+
+.boutonSupprimer_plats{
+    position:relative;
+    right: 0;
+    bottom: 0;
+}
+
+
+.platDetail_gauche_admin{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+}
+
+.platDetail_gauche_bottom input{
+    background: none;
+    border: none;
+    width: 30vw;
+    color: #e3a414;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.platDetail_droit textarea{
+
+    background: none;
+
+    color: #e3a414;
+    border: none;
+    width: 44vw;
+    height: 100%;
+    font-size: 2vw;
+    resize: none;
+}
+
+
+
+
+
+
+
+
+
+.admin_les_avis{
+    flex-direction: column;
+}
+
+.admin_partenaire{
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------- MOBILE -------------- */
+
+@media only screen and (max-width: 600px) {
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        height: 100vw;
+        position:relative;
+
+    }
+
+    .logo{
+        font-size: 5vw;
+        margin: 0;
+        flex: 0;
+        margin-top: 5vw;
+    }
+
+    .logo h1{
+        margin: 0;
+    }
+
+    .menu{
+        margin-top: 5vw;
+        flex-direction: column;
+        font-size: 4vw;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .menu li{
+        margin-top: 2vw;
+    }
+
+
+
+    .jourMarche{
+        margin-top: 25vw;
+        flex-direction: column;
+        justify-content: center;
+        height: fit-content;
+        box-shadow: none;
+    }
+
+    .imgHeaderContainer{
+        width: 50vw;
+        height: 25vw;
+        margin-bottom: 50vw;
+        
+    }
+    
+    .paella_header{
+        width: 100vw;
+        object-fit: cover;
+    
+    
+    }
+    
+
+    .qui_suis_je{
+        margin-top: 25vw;
+    }
+
+
+
+
+
+    .avis_container{
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+    
+    }
+
+
+
+    .avis{
+        height: 50vw;
+        width: 85vw;
+
+    
+
+    
+        font-size: 4vw;
+    
+        display: flex;
+        flex-direction: column;
+    
+        margin-bottom: 5vw;
+    }
+
+
+    .index_avis h4{
+        margin-left: 3.5vw;
+        font-size: 5vw;
+
+    }
+
+    .partenaire_text{
+        font-size: 8vw;
+        text-align: center;
+    }
+    
+
+
+    .partenaire_liste{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .partenaire{
+        margin-bottom: 10vw;
+    }
+
+
+    footer{
+        margin-top: 5vw;
+        height: 100vw;
+    
+        background-color: rgb(32, 32, 32);
+        clip-path: polygon(0 0, 100% 70%, 100% 100%, 0% 100%);
+        flex-direction: column;
+        justify-content: end;
+    }
+    
+    footer img{
+        width: 50vw;
+        object-fit: contain;
+    }
+    
+    .footer_contacter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 5vw;
+        align-items: center;
+        margin-top: 0;
+        
+    }
+
+    .footer_contacter h2{
+        margin-top: 0;
+    }
+
+
+
+
+
+
+
+
+   /* ------- PLAT MOBILE --------- */
+
+   .plat_titre{
+        font-size: 15vw;
+
+    }
+
+    .plats_container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        align-items: center;
+
+
+
+    }
+
+
+
+    .plat{
+        width: 80vw;
+        height: 100vw;
+    
+        display: flex;
+        flex-direction: column;
+    
+
+    
+        font-size: 5vw;
+    
+
+    
+    }
+    
+    
+    
+    .plat img{
+        border-radius: 5%;
+        height: 70vw;
+        object-fit: cover;
+    }
+    
+
+    
+    .plat_description{
+        margin-top: 1vw;
+
+    }
+
+
+
+    /*-------PLAT DETAIL MOBILE -----------*/
+
+    .platDetail_body{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .platDetail{
+        margin-top: 5vw;
+        width: 95vw;
+        display: flex;
+        flex-direction: row;
+    
+        background-image: url("../photo/background.jpg");
+        background-size: cover; /* Couvre tout l'élément, en gardant les proportions */
+        background-position: center; /* Centre l'image de fond */
+        background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        border-radius: 5%;
+    }
+    
+    .platDetail_gauche{
+    
+    
+        display: flex;
+        flex-direction: column;
+    
+    
+    }
+    
+    .platDetail_gauche_bottom{
+        margin-left: 2vw;
+    }
+    
+    .platDetail_droit{
+    
+    
+        display: flex;
+        flex-direction: column;
+    
+        margin-left: 5vw;
+    
+    }
+    
+    .platDetail_img{
+        width: 40vw;
+        height: 40vw;
+        background-color: red;
+        background-image: url(../photo/plat/paella.jpg);
+        background-size: cover; /* Couvre tout l'élément, en gardant les proportions */
+        background-position: center; /* Centre l'image de fond */
+        background-repeat: no-repeat;
+    
+        border-radius: 5%;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+    
+    }
+    
+    
+    .platDetail_nom{
+        font-size: 15vw;
+    
+        margin-top: 2vw;
+        margin-bottom: 0;
+        font-family: "Dancing Script", cursive;
+    }
+    
+    .platDetail_prix{
+        font-size: 10vw;
+        margin-top: 0;
+    }
+    
+    
+    .platDetail_droit p{
+        font-size: 5vw;
+    }
+    
+
+
+
+}
+  

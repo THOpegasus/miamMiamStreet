@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body class="admin_body">
+    <header>
+        <a  class="logo" href="index.html"> <h1>Miam Miam Street</h1></a>
+        <ul class="menu">
+            <li><a href="#" id="menu_ou_me_trouver">ou me trouver</a></li>
+            <li><a href="#" id="menu_qui_suis_je">qui suis-je</a></li>
+            <li><a href="#" id="menu_plats">plat proposé</a></li>
+            <li><a href="#" id="menu_avis">les avis</a></li>
+            <li><a href="#" id="menu_partenaires">lien utiles partenaire</a></li>
+        </ul>
+    </header>
+
+    <div class="admin_ou_me_trouver" id="ou_me_trouver">
+        <div class="ou_me_trouver_titre">
+            <h2>
+                ou me trouver
+            </h2>
+        </div>
+        <form class="form-ou-me-trouver" id="form-ou-me-trouver">
+            <textarea class="jourMarcheText" id="fileContent"></textarea><br><br>
+            <input type="submit" value="Enregistrer les modifications">
+        </form>
+    </div>
+
+    <div class="admin_qui_suis_je" id="qui_suis_je">
+        <div class="qui_suis_je_titre">
+            <h2>
+                qui suis je
+            </h2>
+        </div>
+        <form class="form-qui-suis-je" id="form-qui-suis-je">
+            <textarea class="jourMarcheText" id="fileContentQui"></textarea><br><br>
+            <input type="submit" value="Enregistrer les modifications">
+        </form>
+    </div>
+
+    <div class="admin_plat_proposer"  id="plat_proposer">
+        <div class="plats_titre">
+            <h2>
+                Les plats
+            </h2>
+        </div>
+    
+        <div class="plats_container" id="plats_container">
+    
+        </div>
+    </div>
+
+    
+
+    <div class="admin_les_avis" id="les_avis">
+        <div class="avis_titre">
+            <h2>
+                Les avis
+            </h2>
+        </div>
+    
+        <div class="avis_container" id="avis_container">
+    
+           
+        </div>
+    </div>
+
+
+
+    <div class="admin_partenaire"  id="partenaire">
+        <div class="partenaire_text">
+            <h2>
+                Mes partenaires
+            </h2>
+        </div>
+        <div class="partenaire_liste" id="partenaire_liste">
+        
+            
+        </div>
+        <form id="form-partenaire">
+            <label for="nom">Nom :</label><br>
+            <input type="text" id="nom" name="nom" required><br>
+    
+            <label for="url">URL :</label><br>
+            <input type="url" id="url" name="url" required><br>
+    
+            <label for="image">Image (URL) :</label><br>
+            <input type="url" id="image" name="image" required><br>
+    
+            <button type="submit">Ajouter</button>
+        </form>
+
+
+    </div>
+
+
+    
+    <script src="js/admin.js"></script>
+</body>
+</html>

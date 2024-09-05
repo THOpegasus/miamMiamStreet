@@ -1,0 +1,32 @@
+[
+  {
+    "nom": "Alice Martin",
+    "note": 5,
+    "date": "2024-06-15",
+    "description": "Service exceptionnel, je recommande vivement !"
+  },
+  {
+    "nom": "Pierre Dupont",
+    "note": 4,
+    "date": "2024-06-12",
+    "description": "Très bon service, mais il y avait un peu d'attente."
+  },
+  {
+    "nom": "Sophie Durand",
+    "note": 3,
+    "date": "2024-06-10",
+    "description": "Expérience moyenne, service correct mais rien de spécial."
+  },
+  {
+    "nom": "Lucien Bernard",
+    "note": 2,
+    "date": "2024-06-05",
+    "description": "Déçu par la qualité du service, pourrait être amélioré."
+  },
+  {
+    "nom": "Julie Moreau",
+    "note": 1,
+    "date": "2024-06-01",
+    "description": "Très mauvaise expérience, je ne recommande pas."
+  }
+]
